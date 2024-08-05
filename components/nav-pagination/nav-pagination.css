@@ -1,14 +1,34 @@
 .navigation {
-  width: 100%;
-  height: 50px;
   display: flex;
-  flex: row;
-  justify-content: space-between;
-  /* display: grid;
-  grid-template-columns: 100px 100px 100px;x */
+  justify-content: center;
+  padding: 10px;
 }
 
 .navigation__pagination {
   display: grid;
   place-items: center;
+  padding: 10px;
+}
+
+.button_button--next,
+.button_button--prev {
+  font-family: var(--font-family);
+  text-align: center;
+  line-height: 1;
+  font-size: 12px;
+  border: none;
+  background-color: var(--color-accent);
+  border-radius: 12px;
+  width: 4rem;
+  padding: 10px;
+  outline: none;
+}
+.button_button--next:hover {
+  color: #001f3f;
+  background-color: #1e9fb0;
+}
+
+.button_button--prev:hover {
+  color: #001f3f;
+  background-color: #1e9fb0;
 }

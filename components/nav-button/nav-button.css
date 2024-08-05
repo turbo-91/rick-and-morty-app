@@ -1,13 +1,4 @@
-.button {
-  height: 30px;
-  width: 10vw;
-  border: none;
-  margin-left: 1vw;
-  margin-right: 1vw;
-  margin-bottom: 1vw;
-  background-color: var(--color-secondary);
-}
-
 .button:hover {
-  background-color: var(--color-accent);
+  scale: 1.05;
+  background-color: var(--color-secondary);
 }
