@@ -10,25 +10,45 @@
 }
 
 :root {
-  --color-primary: #343a40;
-  --color-secondary: #d9ed92;
-  --color-tertiary: white;
-  --color-accent: #e9ff70;
-  --font-family: Helvetica, Arial, sans-serif;
+  --color-primary: black;
+  --color-secondary: #16acc9;
+  --color-accent: #d2da4b;
+  --font-family: "VT323-Regular", "Arial";
+}
+
+@font-face {
+  font-family: "VT323-Regular";
+  src: url(./assets/VT323-Regular.ttf);
 }
 
 body {
   font-family: var(--font-family);
-  color: var(--color-primary);
+  color: var(--color-accent);
+  font-size: 1.2rem;
+
+  background-image: url("assets/wallpaperflare.com_wallpaper.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
 }
 
 main {
   display: flex;
   flex-direction: column;
+  align-items: center;
   gap: 10px;
 }
 
 .title {
-  top: 15px;
   padding: 10px 0;
+  height: 200px;
+  width: 320px;
+}
+
+@media (min-width: 1024px) {
+  .title {
+    height: 400px;
+    width: 640px;
+  }
 }
