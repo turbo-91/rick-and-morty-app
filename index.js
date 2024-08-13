@@ -44,6 +44,7 @@ const data = await fetchCharacters();
 data.results.forEach((character) => {
   createCharacterCard(character);
 });
+console.log(data.results);
 
 searchBar.addEventListener("submit", (event) => {
   event.preventDefault();
