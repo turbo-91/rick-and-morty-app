@@ -1,6 +1,6 @@
 # Rick and Morty App
 
-<img src="./assets/rick-morty.gif">
+<img src="./assets/rick-morty-title.png">
 
 ### Local development
 
