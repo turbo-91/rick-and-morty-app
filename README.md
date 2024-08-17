@@ -2,6 +2,12 @@
 
 <img src="./assets/rick-morty-title.png">
 
+# Technologies
+
+[![My Skills](https://skillicons.dev/icons?i=js)](https://skillicons.dev) Javascript
+
+[![My Skills](https://skillicons.dev/icons?i=css)](https://skillicons.dev) CSS
+
 ### Local development
 
 To run project commands locally, you need to install the dependencies using `npm i` first.
