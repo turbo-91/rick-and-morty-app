@@ -4,9 +4,11 @@
 
 # Technologies
 
-[![My Skills](https://skillicons.dev/icons?i=js)](https://skillicons.dev) Javascript
+[![My Skills](https://skillicons.dev/icons?i=js)](https://skillicons.dev) 
 
-[![My Skills](https://skillicons.dev/icons?i=css)](https://skillicons.dev) CSS
+[![My Skills](https://skillicons.dev/icons?i=css)](https://skillicons.dev)
+
+[![My Skills](https://skillicons.dev/icons?i=html)](https://skillicons.dev)
 
 ### Local development
 
