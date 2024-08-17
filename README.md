@@ -1,5 +1,7 @@
 # Rick and Morty App
 
+<img src="./assets/rick-morty.gif">
+
 ### Local development
 
 To run project commands locally, you need to install the dependencies using `npm i` first.
