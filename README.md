@@ -1,6 +1,6 @@
 # Rick and Morty App
 
-<img src="./assets/rick-morty-title.png">
+<img src="./assets/rick-and-morty.gif">
 
 # Technologies
 
